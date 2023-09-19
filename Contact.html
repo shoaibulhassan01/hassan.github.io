@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   <script src="https://cdn.tailwindcss.com"></script>
+  
+    <title>Shoaib-Ul-Hassan-portfolio</title>
+    <style>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Balsamiq+Sans:ital@1&family=Caprasimo&family=Dosis:wght@300&family=Heebo:wght@600&family=Lato:wght@700&family=Montserrat:ital,wght@1,500&family=Open+Sans:ital,wght@1,600&family=Outfit:wght@700&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    height: 70px;
+    width: 100vw;
+  
+    background-color: rgb(18,18,62) ;
+}
+nav ul{
+    display: flex;
+    padding-top: 3px;
+    list-style: none;
+    gap: 30px;
+}
+.left{
+    font-size: 1.30rem;
+    font-weight: bolder;
+}
+.navlink:hover , .navlink:active{
+   color: red;
+   border-bottom: 1px solid red;
+   cursor: pointer;
+   transform: scale(1);
+}
+.mobile{
+    background: rgb(81, 81, 81);
+    text-align: center;
+    color: rgb(233, 229, 229);
+}
+.cross{
+    width: 30px;
+    float: right;
+    color: white;
+    
+}
+.sk{
+    padding-right: 30px;
+    
+}
+.con{
+    padding-right: 30px;
+}
+.menu{
+    display: none;
+}
+.mobile{
+    display: none;
+}
+@media (max-width:1155px) {
+    nav{
+        background-color: #0e0e1a;
+    }
+}
+@media (max-width:1064px) {
+    nav{
+        background-color: #0e0e1a;
+        background-size: 100vw 20vh;
+    }
+}
+
+@media (max-width:878px) {
+    
+    
+    .left{
+        font-size: 1rem;
+    }
+    .navlink{
+        font-size: .75rem;
+        padding-top: 5px;
+    }
+}
+@media (max-width:615px) {
+    .navlink{
+        display: none;
+    }
+.menu{
+    display: block;
+    width: 30px;
+    position: absolute;
+    
+}
+.left{
+    padding-top: 6px;
+}
+}
+
+@media (max-width:362px) {
+    nav{
+        background: none;
+        background-size: 100vw;
+    }
+}
+    .menu{
+        background-color: none;
+        nav{
+            background: none;
+        }
+    }
+@media (max-width:350px) {
+    nav{
+        background-color: none;
+        width: 100%;
+    }
+}
+@media (max-width:255px) {
+
+.left{
+    font-size: .65rem;
+    
+}
+.menu{
+    width: 20px;
+}
+}
+
+.firstsection{
+    justify-content: space-around;
+    display: flex;
+    padding-top: 70px;
+    padding-left: 60px;
+    padding-right: 50px;
+    
+    
+    
+}
+
+
+.leftsec{
+
+font-size: 2.75rem;
+padding-top: 85px;
+width: 50%;
+opacity: 2.2;
+background-size: 30vw;
+background-repeat: no-repeat;
+}
+
+.ima{
+    position: absolute;
+   opacity: 0.1;
+padding-right: 800px;
+
+}
+/* .rightsec{
+    background-color: none;
+    width: 50%;
+   
+} */
+/* .rightsec img{
+    opacity: 0.8;
+    width: 50%;
+    
+    
+
+   
+}
+.rightsec {
+    opacity: 0.8;
+    width: 100%;
+    border: 2px solid red;
+    padding-left: 150px;
+
+   
+} */
+
+.rightsec{
+    border: 2px solid rgb(157, 79, 231);
+    animation: shake linear 3s infinite;
+}
+
+    
+
+
+@keyframes shake {
+    0%{
+transform: translateY(-12px);
+    }
+    50%{
+        transform: translateY(12px);
+    }
+    100%{
+        transform: translateY(-12px);
+    }
+}
+
+.sp{
+    color: rgb(157, 79, 231);
+}
+#element{
+    color:rgb(228, 45, 45) ;
+}
+.sec{
+    
+    margin: auto;
+    padding-left: 70px;
+}
+.sec h1{
+    font-size: 1.9rem;
+}
+
+.btnu{
+position: absolute;
+font-size: 18px;
+padding-top: 20px;
+}
+.btnua{
+    color: rgb(174, 139, 206);
+    font-weight: bold;
+    border: 1px solid rgb(157, 79, 231);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+.btnua:hover, .btnu:active{
+    border: 1px solid black;
+    background-color: rgb(157, 79, 231);
+    color: black;
+    
+    transition: all 0.4s linear;
+    
+}
+.h{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(157, 79, 231);
+}
+.co h1{
+    font-size: 25px;
+    padding-left: 70px;
+}
+.fla{
+    display: flex;
+}
+.kak{
+    font-size: 25px;
+}
+.kj{
+    text-align: center;
+    font-size: 30px;
+}
+.kaju{
+    padding-left: 70px;
+}
+.main{
+    padding-left: 300px;
+}
+.desc{
+    font-size: 13px;
+    width: 156px;
+    padding-top: 10px;
+    
+}
+.js{
+    position: absolute;
+    width: 295px;
+    padding-left: 260px;
+    padding-top: 4px;
+}
+.jq{
+    position: absolute;
+    padding-left: 450px;
+    width: 490px;
+}
+.word{
+    position: absolute;
+    padding-left: 650px;
+    width: 690px;
+}
+.graphic{
+    position: absolute;
+    padding-left: 830px;
+    width: 880px;
+}
+footer{
+    
+    background-color: #0e0e1a;
+    height: 233px;
+
+}
+.link{
+    padding-left: 400px;
+}
+.f1{
+padding-left:70px;
+padding-top: 20px;
+font-size: 20px;
+font-weight: bold;
+}
+.ko{
+    display: flex;
+}
+.shoaib{
+    text-align: center;
+    background-color: black;
+    background-size: 100vw 20vh;
+    font-size: 20px;
+    padding-top: -40px;
+}
+.f0{
+font-size: 15px;
+font-weight: bold;
+padding-bottom: 5px;
+}
+.heading{
+    padding-left: 70px;
+}
+.ppp{
+    color: gray;
+    font-size: 13px;
+}
+
+ 
+.head{
+    font-size:1.9rem;
+}
+.pi{
+    width: 40vw;
+    height: 40vh;
+    
+}
+.pi3{
+    width: 40vw;
+    height: 40vh;
+    /* opacity: 0.25; */
+}
+.pt{
+    position: absolute;
+    font-size: 40px;
+    padding-top: 130px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 90px;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.pt3{
+    position: absolute;
+    font-size: 40px;
+    padding-top: 130px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 90px;
+    color: rgb(255, 0, 0);
+    
+    
+}
+.project{
+
+    padding-left: 70px;
+
+}
+.project2{
+
+    padding-left: 600px;
+
+}
+.kam{
+    position: absolute;
+    font-size: 18px;
+    padding-top: 250px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 60px;
+    color: rgb(255, 255, 255);
+}
+.kam3{
+    position: absolute;
+    font-size: 20px;
+    padding-top: 250px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 35px;
+    color: blue;
+    
+}
+.btn1{
+    position: absolute;
+    font-size: 18px;
+    padding-top: 300px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 160px;
+    
+}
+.btn2{
+   
+    position: absolute;
+    font-size: 18px;
+    padding-top: 300px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 160px;
+}
+.btn2{
+   
+    position: absolute;
+    font-size: 18px;
+    padding-top: 300px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 160px;
+}
+.ba{
+    background-color: green;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.ba2{
+    background-color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: white;
+    
+}
+.form-text{
+font-size: 14px;
+color: gray;
+}
+.a .form-control{
+background: none;
+border: 1px solid rgb(157, 79, 231);
+border-radius: 10px;
+width:100%;
+padding-top: 10px;
+
+}
+.b .form-control{
+background: none;
+border: 1px solid rgb(157, 79, 231);
+border-radius: 10px;
+width:100%;
+padding-top: 10px;
+}
+.c .form-control{
+background: none;
+border: 1px solid rgb(157, 79, 231);
+border-radius: 10px;
+width:100%;
+padding-top: 10px;
+}
+.d .form-control{
+background: none;
+border: 1px solid rgb(157, 79, 231);
+border-radius: 10px;
+width:100%;
+padding-top: 10px;
+}
+.b{
+    padding-top: 20px;
+}
+.c{
+    padding-top: 20px;
+}
+.d{
+    padding-top: 20px;
+}
+.btnx{
+background-color: rgb(209, 26, 209);
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 7px;
+padding-bottom: 7px;
+border-radius: 7px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+
+
+
+
+    <nav>
+        <div class="left">Shoaib-Ul-Hassan's Portfolio</div>
+        <div class="rigt">
+            <ul class="ul">
+                <a href="./home.html"><li class="navlink">HOME</li></a>
+                <a href="./about me.html"><li class="navlink">ABOUT Me</li></a>
+                <a href="./cv .html"><li class="navlink">CV</li></a>
+                <a href="./Contact.html"><li class="navlink">CONTACT ME</li></a>
+                <li class="menu"> <img src="./image/icons8-menu-48.png" class="menu"></li>
+            </ul>
+           
+        </div>
+     
+        </nav>
+        <ul class="mobile">
+            <li><img src="./image/icons8-cross-100.png" class="cross"></li>
+            <li>HOME</li>
+            <li>ABOUT ME</li>
+            <li class="sk">CV</li>
+            <li class="con">CONTACT ME</li>
+        </ul>
+<section class="firstsection">
+    
+    <div class="leftsec"> My name is<br> <span class="sp">Shoaib-Ul-Hassan</span><br><span class="flex">and this is my</span>
+        <span id="element"></span>
+        <div class="flax">
+        <div class="btnu"><button><a href="" class="btnua">Visit Git Hub</a></button></div>
+      
+    </div>
+    </div>
+    <div class="rightsec"><img src="./image/h.jpg-removebg-preview (1).png"></div>
+    </section><br><hr style=" height: 1.2px; margin: 60px 50px;"><br>
+
+
+           <div class="kj">Contact Me</div>
+        <div class="h"><h1>Feel free to reach out to me with any questions or inquiries.</h1></div>    
+    <br><br>     
+   
+
+
+    <div class="fla">
+
+        <div class="kaju">
+            <div class="kak"><h1>Contact Information</h1></div>
+            <div class="add"><h2><br>E-mail:<br>shoaib60625966@gmail.com</h2></div>
+            <div class="add"><h2><br>Phone no:<br>03224212339</h2></div>
+            <div class="add"><h2><br>E-mail:<br>www.shoaib's portfolio.com</h2></div>
+           </div>
+
+
+<div class="main">
+    <div class="co"><h1>Contact form </h1></div>  <br>
+    <div class="contact">
+        <form>
+            <div class="mb-3 a">
+              <label for="exampleInputEmail1" class="form-label">Email address</label><br>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3 b">
+              <label for="clientph" class="form-label">Phone</label><br>
+              <input type="Phone no" class="form-control" id="clientph">
+            </div>
+            <div class="mb-3 c">
+                <label for="exampleFormControlInput1" class="form-label">Address</label><br>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+              </div>
+              <div class="mb-3 d">
+                <label for="exampleFormControlTextarea1" class="form-label">Your Message</label><br>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I want you to work a project with you.</label>
+            </div>
+            <button type="submit" class="btn btn-primary"><div class="btnx">Submit</div></button>
+          </form>
+    </div>
+</div>
+
+</div><br><br>
+
+
+
+<footer>
+    <div class="fi">
+        <div class="f1">
+            <h1>Shoaib's Developer<br> portfolio</h1>
+        </div>
+        <div class="ko">
+        <div class="link">
+        <div class="f0"><a href="">Quick Links</a></div>
+        <div class="f2"><a href="">HOME</a></div>
+        <div class="f3"><a href="">ABOUT ME</a></div>
+        <div class="f4"><a href="">Ny Projects</a></div>
+        <div class="f5"><a href="">CONTACT ME</a></div></div>
+        <div class="link">
+        <div class="f0"><a href="">Social Media Links</a></div>
+        <div class="f2"><a href="">Instagram</a></div>
+        <div class="f3"><a href="">Git Hub</a></div>
+        <div class="f4"><a href="">Facebook</a></div>
+        <div class="f5"><a href="">Twitter</a></div></div>
+    </div><br>
+   
+    </div>
+    <div class="shoaib">www.shoaib's portfolio.com |&copy;copyright All rights reserved</div>
+
+</footer>
+ 
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+<script src="./code.jquery.com_jquery-3.7.0.min.js"></script>
+<script src="./index.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Contact </i> Information.', 'Fill the contact form'],
+      typeSpeed: 70,
+    });
+  </script>
+</body>
+</html>
+
+
+

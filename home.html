@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   <script src="https://cdn.tailwindcss.com"></script>
+  
+    <title>Shoaib-Ul-Hassan-portfolio</title>
+    <style>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Balsamiq+Sans:ital@1&family=Caprasimo&family=Dosis:wght@300&family=Heebo:wght@600&family=Lato:wght@700&family=Montserrat:ital,wght@1,500&family=Open+Sans:ital,wght@1,600&family=Outfit:wght@700&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    height: 70px;
+    width: 100vw;
+  
+    background-color: rgb(18,18,62) ;
+}
+nav ul{
+    display: flex;
+    padding-top: 3px;
+    list-style: none;
+    gap: 30px;
+}
+.left{
+    font-size: 1.30rem;
+    font-weight: bolder;
+}
+.navlink:hover , .navlink:active{
+   color: red;
+   border-bottom: 1px solid red;
+   cursor: pointer;
+   transform: scale(1);
+}
+.mobile{
+    background: rgb(81, 81, 81);
+    text-align: center;
+    color: rgb(233, 229, 229);
+}
+.cross{
+    width: 30px;
+    float: right;
+    color: white;
+    
+}
+.sk{
+    padding-right: 30px;
+    
+}
+.con{
+    padding-right: 30px;
+}
+.menu{
+    display: none;
+}
+.mobile{
+    display: none;
+}
+@media (max-width:1155px) {
+    nav{
+        background-color: #0e0e1a;
+    }
+}
+@media (max-width:1064px) {
+    nav{
+        background-color: #0e0e1a;
+        background-size: 100vw 20vh;
+    }
+}
+
+@media (max-width:878px) {
+    
+    
+    .left{
+        font-size: 1rem;
+    }
+    .navlink{
+        font-size: .75rem;
+        padding-top: 5px;
+    }
+}
+@media (max-width:615px) {
+    .navlink{
+        display: none;
+    }
+.menu{
+    display: block;
+    width: 30px;
+    position: absolute;
+    
+}
+.left{
+    padding-top: 6px;
+}
+}
+
+@media (max-width:362px) {
+    nav{
+        background: none;
+        background-size: 100vw;
+    }
+}
+    .menu{
+        background-color: none;
+        nav{
+            background: none;
+        }
+    }
+@media (max-width:350px) {
+    nav{
+        background-color: none;
+        width: 100%;
+    }
+}
+@media (max-width:255px) {
+
+.left{
+    font-size: .65rem;
+    
+}
+.menu{
+    width: 20px;
+}
+}
+
+.firstsection{
+    justify-content: space-around;
+    display: flex;
+    padding-top: 70px;
+    padding-left: 60px;
+    padding-right: 50px;
+    
+    
+    
+}
+
+
+.leftsec{
+
+font-size: 2.75rem;
+padding-top: 85px;
+width: 50%;
+opacity: 2.2;
+background-size: 30vw;
+background-repeat: no-repeat;
+}
+
+.ima{
+    position: absolute;
+   opacity: 0.1;
+padding-right: 800px;
+
+}
+.rightsec{
+    border: 3px solid rgb(157, 79, 231);
+    animation: shake linear 2s infinite;
+}
+
+    
+
+
+@keyframes shake {
+    0%{
+transform: translateY(-12px);
+
+    }
+    50%{
+        transform: translateY(12px);
+
+    }
+    100%{
+        transform: translateY(-12px);
+
+    }
+}
+.sp{
+    color: rgb(157, 79, 231);
+}
+#element{
+    color:rgb(228, 45, 45) ;
+}
+.sec{
+    
+    margin: auto;
+    padding-left: 70px;
+}
+.sec h1{
+    font-size: 1.9rem;
+}
+.sec .box{
+background-color: white;
+width: 85vw;
+height: 2px;
+margin: 50px 0;
+display: flex;
+}
+.sec .vertical{
+    height: 150px;
+    width: 1px ;
+    background-color: white;
+    margin: 0 100px;
+}
+.vertext{
+position: relative;
+width: 150px;
+padding-top: 156px;
+}
+.image1{
+width: 120px;
+position: absolute;
+padding-top: 3px;
+padding-left: 80px;
+}
+.desc{
+    font-size: 13px;
+    width: 156px;
+    padding-top: 10px;
+    
+}
+.js{
+    position: absolute;
+    width: 295px;
+    padding-left: 260px;
+    padding-top: 4px;
+}
+.jq{
+    position: absolute;
+    padding-left: 450px;
+    width: 490px;
+}
+.word{
+    position: absolute;
+    padding-left: 650px;
+    width: 690px;
+}
+.graphic{
+    position: absolute;
+    padding-left: 830px;
+    width: 880px;
+}
+footer{
+    
+    background-color: #0e0e1a;
+    height: 233px;
+
+}
+.link{
+    padding-left: 400px;
+}
+.f1{
+padding-left:70px;
+padding-top: 20px;
+font-size: 20px;
+font-weight: bold;
+}
+.ko{
+    display: flex;
+}
+.shoaib{
+    text-align: center;
+    background-color: black;
+    background-size: 100vw 20vh;
+    font-size: 20px;
+    padding-top: -40px;
+}
+.f0{
+font-size: 15px;
+font-weight: bold;
+padding-bottom: 5px;
+}
+.heading{
+    padding-left: 70px;
+}
+.ppp{
+    color: gray;
+    font-size: 13px;
+}
+.head{
+    font-size:1.9rem;
+}
+.pi{
+    width: 40vw;
+    height: 40vh;
+    
+}
+.pi3{
+    width: 40vw;
+    height: 40vh;
+    /* opacity: 0.25; */
+}
+.pt{
+    position: absolute;
+    font-size: 40px;
+    padding-top: 130px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 90px;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.pt3{
+    position: absolute;
+    font-size: 40px;
+    padding-top: 130px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 90px;
+    color: rgb(255, 0, 0);
+    
+    
+}
+.project{
+
+    padding-left: 70px;
+
+}
+.project2{
+
+    padding-left: 600px;
+
+}
+.kam{
+    position: absolute;
+    font-size: 18px;
+    padding-top: 250px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 60px;
+    color: rgb(255, 255, 255);
+}
+.kam3{
+    position: absolute;
+    font-size: 20px;
+    padding-top: 250px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 35px;
+    color: blue;
+    
+}
+.btn1{
+    position: absolute;
+    font-size: 18px;
+    padding-top: 300px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 160px;
+    
+}
+.btn2{
+   
+    position: absolute;
+    font-size: 18px;
+    padding-top: 300px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 160px;
+}
+.btn2{
+   
+    position: absolute;
+    font-size: 18px;
+    padding-top: 300px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 160px;
+}
+.ba{
+    background-color: green;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.ba2{
+    background-color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: white;
+    
+}
+.ba3{
+    background-color: rgb(81 78 35);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    
+}
+
+.pd{
+    padding-top: 3px;
+    font-size: 15px;
+    padding-right: 680px;
+    padding-left: 20px;
+    text-justify: auto;
+}
+.pd2{
+    padding-top: 3px;
+    font-size: 15px;
+    padding-right: 130px;
+    
+    text-justify: auto;
+}
+.btni{
+    font-size: 20px;
+    padding-left: 700px;
+}
+.btnia{
+    /* background-color: rgb(157, 79, 231); */
+    color:rgb(157, 79, 231) ;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.btnia:hover, .btnia:active{
+    background-color: rgb(157, 79, 231);
+    transition: all 0.4s linear;
+    color: #0e0e1a;
+    font-weight: bold;
+}
+.btnu{
+position: absolute;
+font-size: 18px;
+padding-top: 20px;
+}
+.btnua{
+    color: rgb(174, 139, 206);
+    font-weight: bold;
+    border: 1px solid rgb(157, 79, 231);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+.btnua:hover, .btnu:active{
+    border: 1px solid black;
+    background-color: rgb(157, 79, 231);
+    color: black;
+    
+    transition: all 0.4s linear;
+    
+}
+.flax{
+    display: flex;
+}
+    </style>
+</head>
+<body>
+    
+
+
+
+
+    <nav>
+        <div class="left">Shoaib-Ul-Hassan's Portfolio</div>
+        <div class="rigt">
+            <ul class="ul">
+                <a href="./home.html"><li class="navlink">HOME</li></a>
+                <a href="./about me.html"><li class="navlink">ABOUT Me</li></a>
+                <a href="./cv .html"><li class="navlink">CV</li></a>
+                <a href="./Contact.html"><li class="navlink">CONTACT ME</li></a>
+                <li class="menu"> <img src="./image/icons8-menu-48.png" class="menu"></li>
+            </ul>
+           
+        </div>
+     
+        </nav>
+        <ul class="mobile">
+            <li><img src="./image/icons8-cross-100.png" class="cross"></li>
+            <li>HOME</li>
+            <li>ABOUT ME</li>
+            <li class="sk">CV</li>
+            <li class="con">CONTACT ME</li>
+        </ul>
+<section class="firstsection">
+    
+    <div class="leftsec">Hi, My name is<br> <span class="sp">Shoaib-Ul-Hassan</span><br><span class="flex">and I am a passionate</span>
+        <span id="element"></span>
+        <div class="flax">
+        <div class="btnu"><button><a href="" class="btnua">Visit Git Hub</a></button></div>
+      
+    </div>
+    </div>
+    <div class="rightsec"><img src="./image/h.jpg-removebg-preview (1).png"></div>
+    </section><br><hr style=" height: 1.2px; margin: 60px 50px;" >
+
+<section class="sec">
+    <span class="text-gray-400">What I have done so far</span>
+    <h1>Work Experience</h1>
+    <img src="./image/html.png" class="image1">
+    <img src="./image/js.png" class="js">
+    <img src="./image/jquery.png" class="jq">
+    <img src="./image/word.jpg" class="word">
+    <img src="./image/graphic.jpg" class="graphic">
+    <div class="box">
+        
+        <div class="vertical">
+           
+            
+            <div class="vertext ">HTML Developer</div>
+            <div class="desc text-gray-400">Strong skills in custom styling, layout design, and utilizing HTML5 and CSS3 techniques to create modern and interactive web experiences.</div>
+        </div>
+        <div class="vertical">
+            <div class="vertext">JavaScript Aniamtions </div>
+            <div class="desc text-gray-400">Proficient in implementing JavaScript libraries and frameworks to develop interactive and visually appealing animations.</div>
+        </div>
+        <div class="vertical">
+             
+            <div class="vertext">jQuery&TailwindCss</div>
+            <div class="desc text-gray-400">Strong skills in custom styling, layout design, and utilizing HTML5 and CSS3 techniques to create modern and interactive web experiences.</div>
+        </div>
+        <div class="vertical">
+             
+            <div class="vertext">Word Press Development</div>
+            <div class="desc text-gray-400">Intermediate-level WordPress Developer: Proficient in developing custom themes and plugins,   and user-friendly WordPress websites.</div>
+        </div>
+        <div class="vertical">
+             
+            <div class="vertext">Graphic Designing</div>
+            <div class="desc text-gray-400">Passionate about graphic design with a strong foundation in design principles and basic software proficiency.</div>
+        </div>
+    </div>
+</section><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<div class="heading">
+    <div class="ppp">Passion crafted, projects that inspire.</div>
+    <div class="head">My Projects</div>
+</div><br><br>
+
+<div class="project">
+    <div class="pt">Code Smashers</div>
+    <div class="kam">A website for coding and technology blogs</div>
+    <div class="btn1"><button><a href="" class="ba">Visit Website</a> </button></div>
+    <img src="./image/iiiii.avif" class="pi">
+    
+    <div class="pd">Explore the world of coding and technology with Code Smashers: a platform dedicated to providing captivating and informative blogs. Dive into a wealth of knowledge and insights as we unravel the latest trends, industry updates, and innovative techniques. Join us on this exhilarating journey as we decode the world of programming and empower tech enthusiasts with valuable resources and expert perspectives. Expand your horizons, sharpen your skills, and become a part of the vibrant Code Smashers community.</div>
+</div><br>
+<div class="project2">
+    <div class="pt">Go Car Rental</div>
+    <div class="kam">Rent a car in Lahore with Go Car Rental</div>
+    <div class="btn2"><button><a href="" class="ba2">Visit Website</a> </button></div>
+    <img src="./image/cor 3.jpg" class="pi">
+    
+    <div class="pd2">Welcome to Go Car Rental, your gateway to hassle-free car rentals that empower you to embark on unforgettable journeys. Our website offers a seamless and intuitive platform where you can effortlessly find and rent the perfect car for your adventures. With a diverse fleet of reliable vehicles and a commitment to exceptional service, we ensure a smooth and convenient experience for all our customers. Whether you're planning a weekend getaway or a cross-country road trip, Go Car Rental is here to provide you with the keys to unlock the freedom of exploration. Discover your destination on your own terms with Go Car Rental.</div>
+</div><br>
+<div class="project">
+    
+    
+    <div class="btn1"><button><a href="" class="ba3">Visit Website</a> </button></div>
+    <img src="./image/H image 1.jpg" class="pi3">
+    
+    <div class="pd">Explore the world of coding and technology with Code Smashers: a platform dedicated to providing captivating and informative blogs. Dive into a wealth of knowledge and insights as we unravel the latest trends, industry updates, and innovative techniques. Join us on this exhilarating journey as we decode the world of programming and empower tech enthusiasts with valuable resources and expert perspectives. Expand your horizons, sharpen your skills, and become a part of the vibrant Code Smashers community.</div>
+</div><br>
+
+<div class="btni"><Button><a href="" class="btnia">More Projects</a></Button></div><br><br>
+
+
+<footer>
+    <div class="fi">
+        <div class="f1">
+            <h1>Shoaib's Developer<br> portfolio</h1>
+        </div>
+        <div class="ko">
+        <div class="link">
+        <div class="f0"><a href="">Quick Links</a></div>
+        <div class="f2"><a href="">HOME</a></div>
+        <div class="f3"><a href="">ABOUT ME</a></div>
+        <div class="f4"><a href="">Ny Projects</a></div>
+        <div class="f5"><a href="">CONTACT ME</a></div></div>
+        <div class="link">
+        <div class="f0"><a href="">Social Media Links</a></div>
+        <div class="f2"><a href="">Instagram</a></div>
+        <div class="f3"><a href="">Git Hub</a></div>
+        <div class="f4"><a href="">Facebook</a></div>
+        <div class="f5"><a href="">Twitter</a></div></div>
+    </div><br>
+   
+    </div>
+    <div class="shoaib">www.shoaib's portfolio.com |&copy;copyright All rights reserved</div>
+
+</footer>
+ 
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+<script src="./code.jquery.com_jquery-3.7.0.min.js"></script>
+<script src="./index.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Web </i> Developer.', ' Word Press Developer.', ' and a Graphic Designer.'],
+      typeSpeed: 60,
+    });
+  </script>
+</body>
+</html>
+
+
